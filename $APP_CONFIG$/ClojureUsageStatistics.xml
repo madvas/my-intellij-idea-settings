@@ -7,13 +7,24 @@
           <map>
             <entry>
               <key long="198" />
-              <value long="2" />
+              <value long="9" />
             </entry>
           </map>
         </value>
       </entry>
       <entry>
         <key keyword="clj-file-opened" />
+        <value>
+          <map>
+            <entry>
+              <key long="198" />
+              <value long="6" />
+            </entry>
+          </map>
+        </value>
+      </entry>
+      <entry>
+        <key keyword="project-opened" />
         <value>
           <map>
             <entry>
