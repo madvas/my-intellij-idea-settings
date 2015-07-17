@@ -23,4 +23,11 @@
     <variable name="arglist" expression="" defaultValue="&quot;arglist&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="def" value="(def $a$ $b$)$END$" description="def" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
 </templateSet>
