@@ -13,6 +13,28 @@
         </value>
       </entry>
       <entry>
+        <key keyword="cljx-file-selected" />
+        <value>
+          <map>
+            <entry>
+              <key long="200" />
+              <value long="2" />
+            </entry>
+          </map>
+        </value>
+      </entry>
+      <entry>
+        <key keyword="cljx-file-opened" />
+        <value>
+          <map>
+            <entry>
+              <key long="200" />
+              <value long="1" />
+            </entry>
+          </map>
+        </value>
+      </entry>
+      <entry>
         <key keyword="cljs-file-opened" />
         <value>
           <map>
@@ -33,7 +55,7 @@
             </entry>
             <entry>
               <key long="200" />
-              <value long="4" />
+              <value long="9" />
             </entry>
           </map>
         </value>
@@ -70,7 +92,7 @@
             </entry>
             <entry>
               <key long="200" />
-              <value long="13" />
+              <value long="16" />
             </entry>
           </map>
         </value>
@@ -85,7 +107,7 @@
             </entry>
             <entry>
               <key long="200" />
-              <value long="7" />
+              <value long="8" />
             </entry>
           </map>
         </value>
