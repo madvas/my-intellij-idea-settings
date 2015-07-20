@@ -20,6 +20,7 @@
   </action>
   <action id=":cursive.actions.paredit/copy-as-kill">
     <keyboard-shortcut first-keystroke="shift control K" />
+    <keyboard-shortcut first-keystroke="control C" />
   </action>
   <action id=":cursive.actions.paredit/forward">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
