@@ -6,6 +6,10 @@
         <value>
           <map>
             <entry>
+              <key long="201" />
+              <value long="1" />
+            </entry>
+            <entry>
               <key long="200" />
               <value long="14" />
             </entry>
@@ -28,6 +32,10 @@
         <value>
           <map>
             <entry>
+              <key long="201" />
+              <value long="2" />
+            </entry>
+            <entry>
               <key long="200" />
               <value long="2" />
             </entry>
@@ -38,6 +46,10 @@
         <key keyword="cljs-file-opened" />
         <value>
           <map>
+            <entry>
+              <key long="201" />
+              <value long="14" />
+            </entry>
             <entry>
               <key long="200" />
               <value long="17" />
@@ -54,6 +66,10 @@
               <value long="62" />
             </entry>
             <entry>
+              <key long="201" />
+              <value long="4" />
+            </entry>
+            <entry>
               <key long="200" />
               <value long="36" />
             </entry>
@@ -65,6 +81,10 @@
         <value>
           <map>
             <entry>
+              <key long="201" />
+              <value long="5" />
+            </entry>
+            <entry>
               <key long="200" />
               <value long="37" />
             </entry>
@@ -75,6 +95,10 @@
         <key keyword="other-file-selected" />
         <value>
           <map>
+            <entry>
+              <key long="201" />
+              <value long="1" />
+            </entry>
             <entry>
               <key long="200" />
               <value long="10" />
@@ -91,6 +115,10 @@
               <value long="12" />
             </entry>
             <entry>
+              <key long="201" />
+              <value long="10" />
+            </entry>
+            <entry>
               <key long="200" />
               <value long="32" />
             </entry>
@@ -104,6 +132,10 @@
             <entry>
               <key long="198" />
               <value long="1" />
+            </entry>
+            <entry>
+              <key long="201" />
+              <value long="4" />
             </entry>
             <entry>
               <key long="200" />
