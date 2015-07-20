@@ -30,4 +30,10 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
+  <template name="#" value="#($s$)" description="#()" toReformat="false" toShortenFQNames="true">
+    <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
 </templateSet>
