@@ -19,7 +19,7 @@
             </entry>
             <entry>
               <key long="203" />
-              <value long="7" />
+              <value long="8" />
             </entry>
           </map>
         </value>
@@ -95,7 +95,7 @@
             </entry>
             <entry>
               <key long="203" />
-              <value long="34" />
+              <value long="64" />
             </entry>
           </map>
         </value>
@@ -141,7 +141,7 @@
             </entry>
             <entry>
               <key long="203" />
-              <value long="13" />
+              <value long="17" />
             </entry>
           </map>
         </value>
@@ -168,7 +168,7 @@
             </entry>
             <entry>
               <key long="203" />
-              <value long="18" />
+              <value long="20" />
             </entry>
           </map>
         </value>
