@@ -11,10 +11,10 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*</mask>
       <mask>.*js</mask>
       <mask>*js</mask>
       <mask>*less</mask>
+      <mask>*</mask>
       <mask>*css</mask>
     </recentFileMasks>
   </component>
