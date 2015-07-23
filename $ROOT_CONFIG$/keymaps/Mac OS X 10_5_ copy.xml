@@ -171,6 +171,12 @@
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="RIGHT" />
   </action>
+  <action id="EditorScrollDown">
+    <keyboard-shortcut first-keystroke="meta DOWN" />
+  </action>
+  <action id="EditorScrollUp">
+    <keyboard-shortcut first-keystroke="meta UP" />
+  </action>
   <action id="EditorTab" />
   <action id="EditorToggleCase" />
   <action id="EmacsStyleIndent">
