@@ -18,7 +18,7 @@
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="defn" value="(defn $name$&#10;  [$arglist$]&#10;  $END$)" description="defn" toReformat="false" toShortenFQNames="true">
+  <template name="defn" value="(defn $name$ [$arglist$]&#10;  $END$)" description="defn" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="arglist" expression="" defaultValue="&quot;arglist&quot;" alwaysStopAt="true" />
     <context />
