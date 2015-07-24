@@ -14,9 +14,11 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="prints" value="(println &quot;$a$&quot;)$END$" description="print &quot;&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="prs" value="(println &quot;$a$&quot;)$END$" description="print &quot;&quot;" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
   </template>
   <template name="defn" value="(defn $name$ [$arglist$]&#10;  $END$)" description="defn" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
@@ -49,6 +51,12 @@
     </context>
   </template>
   <template name="defck" value="(defcomponentk $a$ [app owner]&#10;  (render [_]&#10;    $END$))" description="defcomponentk" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
+  <template name="prn" value="(println $a$)$END$" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Clojure" value="true" />
