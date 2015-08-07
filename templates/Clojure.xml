@@ -14,7 +14,7 @@
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="prs" value="(println &quot;$a$&quot;)$END$" description="print &quot;&quot;" toReformat="false" toShortenFQNames="true">
+  <template name="prints" value="(println &quot;$a$&quot;)$END$" description="print &quot;&quot;" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Clojure" value="true" />
@@ -63,6 +63,12 @@
     </context>
   </template>
   <template name="co" value="comment" description="comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
+  <template name="prs" value="(println ($c$))$END$" toReformat="false" toShortenFQNames="true">
+    <variable name="c" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Clojure" value="true" />
     </context>
