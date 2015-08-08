@@ -62,7 +62,7 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
-  <template name="co" value="comment" description="comment" toReformat="false" toShortenFQNames="true">
+  <template name="co" value="comment " description="comment" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Clojure" value="true" />
     </context>
