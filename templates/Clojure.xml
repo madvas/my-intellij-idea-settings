@@ -73,4 +73,9 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
+  <template name="c" value="#_ " description="#_" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
 </templateSet>
