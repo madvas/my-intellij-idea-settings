@@ -54,6 +54,12 @@
   <action id=":cursive.actions.paredit/splice">
     <keyboard-shortcut first-keystroke="alt S" />
   </action>
+  <action id=":cursive.actions.paredit/splice-killing-backwards">
+    <keyboard-shortcut first-keystroke="control G" />
+  </action>
+  <action id=":cursive.actions.paredit/splice-killing-forwards">
+    <keyboard-shortcut first-keystroke="control H" />
+  </action>
   <action id=":cursive.actions.paredit/split">
     <keyboard-shortcut first-keystroke="shift alt S" />
   </action>
@@ -275,6 +281,7 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift meta X" />
   </action>
+  <action id="SelectNextOccurrence" />
   <action id="SendEOF" />
   <action id="ShelveChanges.UnshelveWithDialog" />
   <action id="ShowNavBar">
