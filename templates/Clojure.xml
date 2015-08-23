@@ -56,7 +56,7 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
-  <template name="prn" value="(println $a$)$END$" toReformat="false" toShortenFQNames="true">
+  <template name="pr" value="(println $a$)$END$" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Clojure" value="true" />
