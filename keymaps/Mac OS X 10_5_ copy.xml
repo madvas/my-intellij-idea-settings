@@ -226,6 +226,22 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="control B" />
   </action>
+  <action id="GotoBookmark0">
+    <keyboard-shortcut first-keystroke="control 0" />
+    <keyboard-shortcut first-keystroke="alt NUMPAD0" />
+  </action>
+  <action id="GotoBookmark1">
+    <keyboard-shortcut first-keystroke="control 1" />
+    <keyboard-shortcut first-keystroke="alt NUMPAD1" />
+  </action>
+  <action id="GotoBookmark2">
+    <keyboard-shortcut first-keystroke="control 2" />
+    <keyboard-shortcut first-keystroke="alt NUMPAD2" />
+  </action>
+  <action id="GotoBookmark3">
+    <keyboard-shortcut first-keystroke="control 3" />
+    <keyboard-shortcut first-keystroke="alt NUMPAD3" />
+  </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift meta O" />
   </action>
