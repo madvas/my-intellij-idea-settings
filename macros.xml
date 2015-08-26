@@ -1,0 +1,7 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="clojure comment form">
+      <typing text-keycode="51:1;45:1;32:0">#_&amp;#x20;</typing>
+    </macro>
+  </component>
+</application>

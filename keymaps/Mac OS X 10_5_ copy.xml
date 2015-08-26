@@ -230,6 +230,9 @@
     <keyboard-shortcut first-keystroke="shift meta BACK_SPACE" />
     <keyboard-shortcut first-keystroke="alt Q" />
   </action>
+  <action id="Macro.clojure comment form">
+    <keyboard-shortcut first-keystroke="shift control C" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta DOWN" />
   </action>
