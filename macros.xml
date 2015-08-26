@@ -21,6 +21,15 @@
       <action id=":cursive.repl.actions/prev-history-item" />
       <action id=":cursive.repl.actions/execute-immediately" />
       <action id="Switcher" />
+      <shortuct text="UP" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
     </macro>
     <macro name="rerun 1 before last command + switcher">
       <action id="ActivateREPLToolWindow" />
@@ -28,32 +37,13 @@
       <action id=":cursive.repl.actions/prev-history-item" />
       <action id=":cursive.repl.actions/execute-immediately" />
       <action id="Switcher" />
-      <shortuct text="ENTER" />
-    </macro>
-    <macro name="b">
-      <action id=":cursive.repl.actions/load-file" />
-      <action id="ActivateREPLToolWindow" />
-      <action id=":cursive.repl.actions/prev-history-item" />
-      <action id=":cursive.repl.actions/execute-immediately" />
-      <action id="Switcher" />
       <shortuct text="UP" />
       <shortuct text="ENTER" />
-      <shortuct text="UP" />
-    </macro>
-    <macro name="d">
-      <action id=":cursive.repl.actions/load-file" />
-      <action id="ActivateREPLToolWindow" />
-      <action id=":cursive.repl.actions/prev-history-item" />
-      <action id=":cursive.repl.actions/execute-immediately" />
-      <action id="Switcher" />
-      <action id="EditorUp" />
-      <action id="EditorEnter" />
-      <action id="EditorUp" />
-      <action id="EditorEnter" />
-      <action id="EditorUp" />
-      <action id="EditorEnter" />
-      <action id="EditorUp" />
-      <action id="EditorEnter" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
       <shortuct text="ENTER" />
     </macro>
   </component>
