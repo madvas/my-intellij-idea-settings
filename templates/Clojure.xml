@@ -90,4 +90,10 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
+  <template name="pp" value="(u/p $a$)$END$" description="u/p" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
 </templateSet>
