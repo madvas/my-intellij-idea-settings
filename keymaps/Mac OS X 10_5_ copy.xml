@@ -269,6 +269,7 @@
   </action>
   <action id="Macro.u/p wrap">
     <keyboard-shortcut first-keystroke="control COMMA" />
+    <keyboard-shortcut first-keystroke="control Z" />
   </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta DOWN" />
