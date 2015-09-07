@@ -46,5 +46,10 @@
       <shortuct text="ENTER" />
       <shortuct text="ENTER" />
     </macro>
+    <macro name="u/p wrap">
+      <action id=":cursive.actions.paredit/wrap-paren" />
+      <typing text-keycode="85:0;47:0;80:0;32:0;222:1;72:0;69:0;82:0;69:0;59:1">u/p&amp;#x20;&quot;here:</typing>
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>

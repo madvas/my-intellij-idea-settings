@@ -267,6 +267,9 @@
   <action id="Macro.rerun last REPL command + switcher">
     <keyboard-shortcut first-keystroke="meta NUMPAD0" />
   </action>
+  <action id="Macro.u/p wrap">
+    <keyboard-shortcut first-keystroke="control COMMA" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta DOWN" />
   </action>
