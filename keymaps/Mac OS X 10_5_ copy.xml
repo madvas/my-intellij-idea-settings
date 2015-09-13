@@ -287,6 +287,10 @@
     <keyboard-shortcut first-keystroke="control RIGHT" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="shift meta V" />
+    <keyboard-shortcut first-keystroke="shift control V" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="control LEFT" />
   </action>
