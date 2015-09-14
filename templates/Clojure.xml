@@ -101,4 +101,9 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
+  <template name="schema" value="[schema.core :as s :include-macros true]" description="require schema" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
 </templateSet>
