@@ -90,7 +90,7 @@
       <option name="Clojure" value="true" />
     </context>
   </template>
-  <template name="pp" value="(u/p $a$)$END$" description="u/p" toReformat="false" toShortenFQNames="true">
+  <template name="pu" value="(u/p $a$)$END$" description="u/p" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Clojure" value="true" />
@@ -102,6 +102,12 @@
     </context>
   </template>
   <template name="schema" value="[schema.core :as s :include-macros true]" description="require schema" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
+  <template name="pp" value="(pprint $a$)$END$" description="pprint" toReformat="false" toShortenFQNames="true">
+    <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Clojure" value="true" />
     </context>
