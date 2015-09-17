@@ -51,5 +51,19 @@
       <typing text-keycode="85:0;47:0;80:0;32:0;222:1;72:0;69:0;82:0;69:0;59:1">u/p&amp;#x20;&quot;here:</typing>
       <action id="SaveAll" />
     </macro>
+    <macro name="reset command repl">
+      <action id="ActivateREPLToolWindow" />
+      <typing text-keycode="57:1;82:0;69:0;83:0;69:0;84:0">(reset</typing>
+      <action id=":cursive.repl.actions/execute-immediately" />
+      <action id="Switcher" />
+      <shortuct text="UP" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+      <shortuct text="ENTER" />
+    </macro>
   </component>
 </application>
