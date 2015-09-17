@@ -261,6 +261,9 @@
   <action id="Macro.clojure comment form">
     <keyboard-shortcut first-keystroke="shift control C" />
   </action>
+  <action id="Macro.in-ns fractalify.user">
+    <keyboard-shortcut first-keystroke="meta DECIMAL" />
+  </action>
   <action id="Macro.rerun 1 before last command + switcher">
     <keyboard-shortcut first-keystroke="meta NUMPAD1" />
   </action>
