@@ -85,6 +85,8 @@
       <typing text-keycode="57:1;68:0;69:0;86:0">(dev</typing>
       <action id="EditorRight" />
       <action id="EditorEnter" />
+      <typing text-keycode="57:1;82:0;69:0;83:0;69:0;84:0">(reset</typing>
+      <action id=":cursive.repl.actions/execute-immediately" />
     </macro>
   </component>
 </application>
