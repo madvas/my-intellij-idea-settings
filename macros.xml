@@ -9,6 +9,11 @@
       <action id=":cursive.repl.actions/prev-history-item" />
       <action id=":cursive.repl.actions/execute-immediately" />
     </macro>
+    <macro name="rerun last repl command1">
+      <action id=":cursive.repl.actions/load-file" />
+      <action id=":cursive.repl.actions/prev-history-item" />
+      <action id=":cursive.repl.actions/execute-immediately" />
+    </macro>
     <macro name="rerun 1 before last REPL command">
       <action id="ActivateREPLToolWindow" />
       <action id=":cursive.repl.actions/prev-history-item" />
