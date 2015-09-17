@@ -53,6 +53,7 @@
     </macro>
     <macro name="reset command repl">
       <action id="ActivateREPLToolWindow" />
+      <action id="ActivateREPLToolWindow" />
       <typing text-keycode="57:1;82:0;69:0;83:0;69:0;84:0">(reset</typing>
       <action id=":cursive.repl.actions/execute-immediately" />
       <action id="Switcher" />
