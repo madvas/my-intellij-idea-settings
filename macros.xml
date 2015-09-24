@@ -92,5 +92,10 @@
       <action id="GotoAction" />
       <shortuct text="ENTER" />
     </macro>
+    <macro name="last repl history">
+      <action id=":cursive.repl.actions/search-history" />
+      <shortuct text="ENTER" />
+      <action id=":cursive.repl.actions/execute-immediately" />
+    </macro>
   </component>
 </application>

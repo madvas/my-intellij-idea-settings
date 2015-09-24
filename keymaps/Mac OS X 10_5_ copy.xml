@@ -109,6 +109,7 @@
   </action>
   <action id=":cursive.repl.actions/search-history">
     <keyboard-shortcut first-keystroke="meta alt E" />
+    <keyboard-shortcut first-keystroke="meta R" />
   </action>
   <action id=":cursive.repl.actions/switch-namespace">
     <keyboard-shortcut first-keystroke="control S" />
