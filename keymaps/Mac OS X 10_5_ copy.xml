@@ -159,6 +159,9 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditMacros">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="EditorChooseLookupItemCompleteStatement">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
@@ -265,6 +268,9 @@
   <action id="Macro.in-ns fractalify.user">
     <keyboard-shortcut first-keystroke="meta decimal" />
   </action>
+  <action id="Macro.repl refresh">
+    <keyboard-shortcut first-keystroke="meta numpad2" />
+  </action>
   <action id="Macro.rerun 1 before last command + switcher">
     <keyboard-shortcut first-keystroke="meta numpad1" />
   </action>
@@ -338,6 +344,9 @@
   <action id="ShowUsages">
     <keyboard-shortcut first-keystroke="meta alt f7" />
     <keyboard-shortcut first-keystroke="meta g" />
+  </action>
+  <action id="StartStopMacroRecording">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f8" />
