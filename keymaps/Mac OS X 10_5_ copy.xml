@@ -280,6 +280,9 @@
   <action id="Macro.u/p wrap">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="Macro.use midje repl">
+    <keyboard-shortcut first-keystroke="meta numpad3" />
+  </action>
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
