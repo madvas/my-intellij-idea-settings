@@ -30,11 +30,6 @@
       <shortuct text="ENTER" />
       <shortuct text="ENTER" />
       <shortuct text="ENTER" />
-      <shortuct text="ENTER" />
-      <shortuct text="ENTER" />
-      <shortuct text="ENTER" />
-      <shortuct text="ENTER" />
-      <shortuct text="ENTER" />
     </macro>
     <macro name="rerun 1 before last command + switcher">
       <action id="ActivateREPLToolWindow" />
