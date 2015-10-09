@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="File '/Users/matus/www/fractalify/src/clj/fractalify/api/users/routes.clj'" />
     <option name="defaultScopeName" value="File '/Users/matus/www/fractalify/src/clj/fractalify/api/users/routes.clj'" />
-    <option name="localWholeWordsOnly" value="true" />
-    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="File '/Users/matus/www/fractalify/src/clj/fractalify/api/users/routes.clj'" />
     <recentFileMasks>
       <mask>*.properties</mask>
