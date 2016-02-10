@@ -16,9 +16,7 @@
   </template>
   <template name="prints" value="(println &quot;$a$&quot;)$END$" description="print &quot;&quot;" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="defn" value="(defn $name$ [$arglist$]&#10;  $END$)" description="defn" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
@@ -28,88 +26,58 @@
   <template name="def" value="(def $a$ $b$)$END$" description="def" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="#" value="#($s$)" description="#()" toReformat="false" toShortenFQNames="true">
     <variable name="s" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="console" value="(.log js/console $a$)$END$" description=".log js/console" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="defc" value="(defcomponent $a$ [app owner]&#10;  (render [_]&#10;    $END$))" description="defcomponent" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="defck" value="(defcomponentk $a$ [app owner]&#10;  (render [_]&#10;    $END$))" description="defcomponentk" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="pr" value="(println $a$)$END$" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="co" value="comment " description="comment" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="prs" value="(println &quot;$a$&quot;)$END$" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="c" value="#_ " description="#_" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="reqtracer" value="(:require-macros [fractalify.tracer-macros :refer [trace-views]])" description="require tracer macro" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="req" value="(:require [$namespace$ :as $alias$]$END$)" description="require ns clause" toReformat="false" toShortenFQNames="true">
     <variable name="namespace" expression="" defaultValue="&quot;namespace&quot;" alwaysStopAt="true" />
     <variable name="alias" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="pu" value="(u/p $a$)$END$" description="u/p" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="here" value="(println &quot;here&quot;)" description="print here" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="schema" value="[schema.core :as s :include-macros true]" description="require schema" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
   <template name="pp" value="(pprint $a$)$END$" description="pprint" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Clojure" value="true" />
-    </context>
+    <context />
   </template>
 </templateSet>
